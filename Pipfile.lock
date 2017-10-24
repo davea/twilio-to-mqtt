@@ -5,16 +5,16 @@
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
-            "implementation_version": "3.6.3",
+            "implementation_version": "3.5.3",
             "os_name": "posix",
-            "platform_machine": "x86_64",
+            "platform_machine": "armv7l",
             "platform_python_implementation": "CPython",
-            "platform_release": "17.0.0",
-            "platform_system": "Darwin",
-            "platform_version": "Darwin Kernel Version 17.0.0: Thu Aug 24 21:48:19 PDT 2017; root:xnu-4570.1.46~2/RELEASE_X86_64",
-            "python_full_version": "3.6.3",
-            "python_version": "3.6",
-            "sys_platform": "darwin"
+            "platform_release": "4.9.41-v7+",
+            "platform_system": "Linux",
+            "platform_version": "#1023 SMP Tue Aug 8 16:00:15 BST 2017",
+            "python_full_version": "3.5.3",
+            "python_version": "3.5",
+            "sys_platform": "linux"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -27,13 +27,6 @@
         ]
     },
     "default": {
-        "appnope": {
-            "hashes": [
-                "sha256:5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0",
-                "sha256:8b995ffe925347a2138d7ac0fe77155e4311a0ea6d6da4f5128fe4b3cbe5ed71"
-            ],
-            "version": "==0.1.0"
-        },
         "astroid": {
             "hashes": [
                 "sha256:39a21dd2b5d81a6731dc0ac2884fa419532dffd465cdd43ea6c168d36b76efb3",
@@ -240,6 +233,7 @@
                 "sha256:18842328a4e6061f084cfba70f6950d9140ecf7418b3df7cef558ebb217bac8d",
                 "sha256:d00329f27efa157db7efe3ca26fcd69033cd61f83822461ee3f8a353b48e33cf"
             ],
+            "markers": "python_version >= '3.0'",
             "version": "==1.6.7"
         },
         "pytz": {

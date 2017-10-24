@@ -1,16 +1,17 @@
 [[source]]
+
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
+
 
 [packages]
 
 flask = "*"
 twilio = "*"
 ipython = "*"
-"paho-mqtt" = "*"
+paho-mqtt = "*"
 pylint = "*"
-
 
 
 [dev-packages]
